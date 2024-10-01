@@ -1,0 +1,24 @@
+# Pipelines de Dados e o Processo de Engenharia de Dados
+
+## O que é um pipeline de dados?
+- meio de mover dados da origem para o destino
+- os dados são transformados e otimizados para atingirem o estado desejado
+- conjuntos das etapas envolvidas na agregação, organização e movimentação de dados
+- os pipelines modernos automatizam muitas etapas manuais relacionadas a transofrmação e otimização do carreramento de dados
+- geralmente inclui carregador dados brutos em uma tabela de preparação (área intermediária/staging area) temporariamente, transformar e inserir no destino
+- série de etapas de processamento de dados
+- se os dados não estiverem carregados na plataforma de dados, serão ingeridos no início
+- cada etapa fornece uma saída que é a entrada para a próxima etapa
+
+## Componentes de um pipeline de dados
+- **Origem dos dados**: onde os dados são originados
+- **Processamento de dados**: onde os dados são transformados
+- **Destino dos dados**: onde os dados são armazenados
+
+## Pipeline de Dados x Pipeline ETL
+- sistemas de ETL são um tipo de pipeline de dados, pois movem dados de uma origem, transformam e carregam em um destino
+- ETL é um subprocesso de um pipeline de dados
+- o termo ETL foi criado em uma época onde normalmente o destino era um DW e o processo era menos complexo
+- um pipeline de dados envolve o transporte de dados de um local para outro, incluindo limpeza, transformação, enriquecimento, segurança, orquestração, CI/CD
+- pode compor ainda tarefas complementares como enriquecimento de dados, gestão de metadados, linhagem de dados, etc
+- pipelines podem ser criados para dados em batch, streaming ou ambos
