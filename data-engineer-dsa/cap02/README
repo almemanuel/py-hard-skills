@@ -22,3 +22,101 @@
 - um pipeline de dados envolve o transporte de dados de um local para outro, incluindo limpeza, transformação, enriquecimento, segurança, orquestração, CI/CD
 - pode compor ainda tarefas complementares como enriquecimento de dados, gestão de metadados, linhagem de dados, etc
 - pipelines podem ser criados para dados em batch, streaming ou ambos
+
+As principais características ao considerar um pipeline de dados incluem:
+- Processamento de dados contínuo e extensível.
+- A elasticidade e agilidade da nuvem.
+- Recursos isolados e independentes para processamento de dados.
+- Acesso democratizado a dados e gerenciamento de autoatendimento.
+- Alta disponibilidade e recuperação de desastres.
+
+## Ferramentas para construir pipelines
+### Transformação de dados
+- Apache Beam
+- Airbyte
+- Stritch
+- Kebula
+- Dremio
+- Fivetran
+- Dataform
+- Apache Airflow
+- Apache Kafka
+- Apache Spark
+- dbt
+- AWS Glue
+- Amazon Athena
+
+### Armazenamento
+- Databricks
+- Delta Lake
+- Apache Hadoop
+- Apache Hive
+- Snowflake
+- Google BigQuery
+- Amazon S3
+- Amazon Redshift
+- Segment
+- Azure Data Factory
+
+### Real-time Analytics
+- Tableau
+- Amazon Kinesis
+- Metabase
+- Looker
+- Apache Flink
+- Apache Druid
+- Apache Superset
+- Azure Synapse Analytics
+- Redash
+- MicroStrategy
+- DataEdo
+- Power BI
+- Presto
+- Terraform
+
+## O Processo de Engenharia de Dados
+### Data Science Framework
+- Entendimento do negócio
+- Entendimento dos dados
+    - Pair programming
+    - Utilizar dados e SQL
+- Preparação dos dados
+- Modelagem
+- Avaliação
+    - Testar
+    - Monitorar
+- Implantação
+
+## Ciclo de Vida da Engenharia de Dados
+Fontes da Dados (batch e streaming) -> Ingestão -> Transformação e enriquecimento -> Carga -> Consumo
+
+- fontes de dados dependem de conectores para funcionar corretamente
+- a ingestão de dados é o processo de coletar dados de várias fontes e carregá-los em um sistema de armazenamento de dados
+- a transformação é o processo de limpeza e manipulação de dados para que possam ser carregados no destino
+- o enriquecimento de dados é o processo de adicionar informações aos dados, contextualizando, para torná-los mais úteis
+- é necessário um armazenamento intermediário para armazenar os dados transformados e enriquecidos
+- carga é o processo de carregar dados transformados no destino
+- consumo é o processo de acessar e analisar os dados carregados
+
+### Arquitetura de dados
+- a arquitetura de dados é o design de um sistema de armazenamento de dados que atende às necessidades de uma organização
+- está em constantes mudanças
+
+### Gestão de dados e metadados
+- a gestão de dados é o processo de coletar, armazenar, processar e analisar dados
+- metadados são dados sobre dados
+- a gestão se envolve muito a adequar a legislação de proteção de dados
+
+### Orquestração
+- a orquestração é o processo de coordenar e gerenciar a execução de tarefas de um pipeline de dados
+
+### Segurança
+- a segurança de dados é a proteção de dados contra acesso não autorizado
+- alta disponibilidade e recuperação de desastres são essenciais
+
+## CI/CD
+Integração e entre contínua é uma abordagem de desenvolvimento de software em que todos os desenvolvedores trabalham juntos em um repositório compartilhado de código, e a medida que as alterações são feitas, há um processo de build automático para encontrar problemas de código. Isso gera um ciclo de vida de desenvolvimento mais rápido e eficiente.
+
+Um pipeline de CI/CD pode automatizar os dois processos abaixo:
+- integração contínua para criação de teste de código automatizado: permite que os desenvolvedores enviem várias alterações para um repositório mantendo o controle de versão, mantendo sempre o repositório principal atualizado
+- entrega contínua para lançamentos de código: permite o desenvolvimento incremental de ciclo curto, com a entrega de código em produção de forma rápida e segura
