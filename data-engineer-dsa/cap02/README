@@ -114,9 +114,12 @@ Fontes da Dados (batch e streaming) -> Ingestão -> Transformação e enriquecim
 - a segurança de dados é a proteção de dados contra acesso não autorizado
 - alta disponibilidade e recuperação de desastres são essenciais
 
-## CI/CD
-Integração e entre contínua é uma abordagem de desenvolvimento de software em que todos os desenvolvedores trabalham juntos em um repositório compartilhado de código, e a medida que as alterações são feitas, há um processo de build automático para encontrar problemas de código. Isso gera um ciclo de vida de desenvolvimento mais rápido e eficiente.
+### CI/CD
+- abordagem de desenvolvimento de software em que todos os desenvolvedores trabalham juntos em um repositório compartilhado de código, e a medida que as alterações são feitas, há um processo de build automático para encontrar problemas de código
+- ciclo de vida de desenvolvimento mais rápido e eficiente.
+- Um pipeline de CI/CD pode automatizar os dois processos abaixo:
+    - integração contínua para criação de teste de código automatizado: permite que os desenvolvedores enviem várias alterações para um repositório mantendo o controle de versão, mantendo sempre o repositório principal atualizado
+    - entrega contínua para lançamentos de código: permite o desenvolvimento incremental de ciclo curto, com a entrega de código em produção de forma rápida e segura
 
-Um pipeline de CI/CD pode automatizar os dois processos abaixo:
-- integração contínua para criação de teste de código automatizado: permite que os desenvolvedores enviem várias alterações para um repositório mantendo o controle de versão, mantendo sempre o repositório principal atualizado
-- entrega contínua para lançamentos de código: permite o desenvolvimento incremental de ciclo curto, com a entrega de código em produção de forma rápida e segura
+### DataOps
+- monitoramento e manutenção da operação de dados utilizando boas práticas de desenvolvimento de software
