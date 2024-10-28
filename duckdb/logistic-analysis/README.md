@@ -1,6 +1,6 @@
 # logistic-analysis
 
-> Projeto ambientado no contexto de logística para praticar o DuckDB, que vem mostrando-se como uma ferramenta muito poderosa, especialmente para desenvolvedores que precisam trabalhar com análise de dados em Python porém possuem mais conhecimento em SQL do que em Pandas, mas, também, para quem deseja mais performance.
+> Projeto ambientado no contexto de logística para praticar o DuckDB, que vem mostrando-se como uma ferramenta muito poderosa, especialmente para desenvolvedores que precisam trabalhar com análise de dados em Python porém possuem mais conhecimento em SQL do que em Pandas, mas, também, para quem deseja mais performance. Inicialmente, era um case de um processo seletivo, mas resolvi publicá-lo
 
 ## 💻 Pré-requisitos
 
