@@ -24,3 +24,10 @@
     - JSON, XML, colunar, etc
     - Orientados a performance e facilidade de uso
     - SGDBs NoSQL: Cassandra, MongoDB, Redis, DynamoDB, etc
+- O padrão de acesso pode ajudar na definição do formato de armazenamento
+- Big Data é definida por 4Vs: Volume, Velocidade, Variedade e Veracidade
+
+## Armazenamento Colunar x Linha
+- O armazenamento baseado em linha se baseia numa tabela SQL, onde cada linha é uma instância
+- O armazenamento baseado em coluna possui duas colunas, sendo a primeira a chave e, a segunda, um par chave:valor, onde a chave é o ID do objeto
+    - Costuma performar melhor do que armazenamentos baseados em linha
