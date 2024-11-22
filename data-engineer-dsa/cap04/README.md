@@ -31,3 +31,19 @@
 - O armazenamento baseado em linha se baseia numa tabela SQL, onde cada linha é uma instância
 - O armazenamento baseado em coluna possui duas colunas, sendo a primeira a chave e, a segunda, um par chave:valor, onde a chave é o ID do objeto
     - Costuma performar melhor do que armazenamentos baseados em linha
+
+## Quando usar um Data Warehouse?
+- DW é um tipo de banco de dados para consultas e análises eficientes de grandes quantidades de dados
+- dados limpos e organizados
+- ETL
+- usado para armazenar e gerenciar dados de várias fontes
+- é um conceito, e pode ser criado em SQL ou NoSQL, formato colunar ou baseado em linha
+- é útil com grande volume de dados, necessidade de desempenho de consulta analítica, necessidade de integrar dados de várias fontes, necessidade de oferecer suporte à BI ou necessidade de dados históricos
+
+## Quando usar um Data Lake?
+- armazenamento bruto
+- ELT
+- repositório centralizado que permite armazenar e processar grandes quantidades de dados estruturados e não estruturados em escala
+- lida com ampla variedade de tipos de dados e pode armazenar dados em sua forma bruta e não estruturada, trazendo mais flexibilidade e escalabilidade
+- bancos NoSQL e tecnologias distribuídas são úteis para construção
+- é útil se é necessário armazenar e processar dados brutos, armazenar e processar gandes volumes de dados, dados estruturados, não estruturados ou semiestruturados, necessidade de escalabilidade ou de um repositório de dados centralizado
