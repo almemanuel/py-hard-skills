@@ -47,3 +47,10 @@
 - lida com ampla variedade de tipos de dados e pode armazenar dados em sua forma bruta e não estruturada, trazendo mais flexibilidade e escalabilidade
 - bancos NoSQL e tecnologias distribuídas são úteis para construção
 - é útil se é necessário armazenar e processar dados brutos, armazenar e processar gandes volumes de dados, dados estruturados, não estruturados ou semiestruturados, necessidade de escalabilidade ou de um repositório de dados centralizado
+
+## Quando usar um Data Lakehouse?
+- plataforma de dados construída a partir da combinação de um DW e DL
+- une o armazenamento flexível de dados não estruturados de um DL e os recursos de gerenciamento de DW
+- implementam estruturas de dados e recursos de gerenciamento de dados semelhantes aos de um DW diretamente sobre o armazenamento em nuvem de baixo custo em formatos abertos e, normalmente, distribuídos
+- from BI to AI
+- escalável, flexível, desempenho de consulta, repositório centralizado, complexidade, uso intensivo de recursos, desafios adicionais de governança de dados, desafios adicionais de integração de dados
